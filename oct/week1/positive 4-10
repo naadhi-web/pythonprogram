@@ -1,0 +1,6 @@
+integer=[0,3,-2,-5,-7,4,9]
+newlist=[]
+for x in integer:
+        if (x>0):
+            newlist.append(x)
+print(newlist)
