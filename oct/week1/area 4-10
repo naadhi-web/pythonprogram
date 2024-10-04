@@ -1,0 +1,11 @@
+r=int(input("enter radius"))
+circle_ar=3.14*r*r
+print("circle area=",circle_ar)
+l=int(input("enter length of rectangle"))
+b=int(input("enter breadth of rectangle"))
+rectangle_ar=l*b
+print("rectangle area=",rectangle_ar)
+base=int(input("enter base of triangle"))
+h=int(input("enter height of triangle="))
+triangle_ar=0.5*base*h
+print("triangle area=",triangle_ar)
