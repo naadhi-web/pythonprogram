@@ -1,0 +1,6 @@
+num=int(input("enter number"))
+increment=num+5
+print("increment value by 5 is",increment)
+decrement=increment-3
+print("decremented value by 3 is",decrement)
+
