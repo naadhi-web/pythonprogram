@@ -1,0 +1,10 @@
+a=int(input("enter number1"))
+b=int(input("enter number2"))
+sum=a+b
+difference=a-b
+product=a*b
+division=a/b
+print("the value of sum is",sum)
+print("the value of difference is",difference)
+print("the value of product is",product)
+print("the value of division is",division)
