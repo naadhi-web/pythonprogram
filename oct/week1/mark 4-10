@@ -1,1 +1,11 @@
+m1=int(input("enter mark of subject1 out of 50"))
+m2=int(input("enter mark of subject2 out of 50"))
+m3=int(input("enter mark of subject3 out of 50"))
+m4=int(input("enter mark of subject4 out of 50"))
+m5=int(input("enter mark of subject5 out of 50"))
+total_mark=m1+m2+m3+m4+m5
+print("total mark is",total_mark)
+avg=total_mark/250
+percentage=avg*100
+print("total percentage is",percentage)
 
