@@ -1,0 +1,9 @@
+user_input=input("enter color names seperated by commas:")
+colors=user_input.split(',')
+for i in range(len(colors)):
+    colors[i]=colors[i].strip()
+if colors:
+    print("first color:",colors[0])
+    print("last color:",colors[-1])
+else:
+    print("no colors entered")
