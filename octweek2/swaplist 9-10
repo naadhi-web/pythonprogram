@@ -1,0 +1,6 @@
+list=input("enter the list element seperated by spaces").split()
+if(len(list)<2):
+    print("list should have atleast two elements")
+else:
+    list[0],list[-1],=list[-1],list[0]
+print("list after swapping first and last element",list)
