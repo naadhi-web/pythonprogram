@@ -1,0 +1,12 @@
+n=int(input("Enter the number of terms: "))
+def fibonacci():
+    series=[]
+    a=0
+    b=1
+    for i in range(n):
+        series.append(a)
+        a,b=b,a+b
+    return series
+result=fibonacci()
+print("fibonacci series: ",result)
+    
