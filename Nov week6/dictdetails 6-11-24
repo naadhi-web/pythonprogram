@@ -1,0 +1,26 @@
+student= {
+    'name':input("Enter a student name:"),
+    'roll_No':input("Enter Roll NO :"),
+    'register_No':input("Enter Register No :"),
+    'department':input("Department : "),
+    'semester':int(input("Semester : ")),
+    }
+print("Student details: ",student)
+total_mark=int(input("enter total mark of the student : "))
+student['total_mark']=total_mark
+if total_mark >=90:
+    grade='A'
+elif total_mark >=80:
+    grade='B'
+elif total_mark >=75:
+    grade='C'
+elif total_mark >=60:
+    grade='D'
+elif total_mark >=50:
+    grade='p'
+else:
+    grade='F'
+student['grade']=grade
+print("\n updated details:",student)
+del student['roll_No']
+print("\n after deletion Roll No the details is:",student)
