@@ -1,0 +1,39 @@
+num=int(input("Enter the limit of the list:"))
+list1=[]
+for i in range(num):
+    x=int(input("enter the number :"))
+    list1.append(x)
+print(list1)
+while 1:
+    print("\nMenu")
+    print("1.Greatest & lowest no")
+    print("2.sorted list of ascending order")
+    print("3.create a list even no")
+    print("4.Exit")
+    
+    choice=int(input("Enter choice"))
+    
+    if (choice==1):
+        greatest=max(list1)
+        print("greatest: ",greatest)
+        lowest=min(list1)
+        print("lowest: ",lowest)
+    elif  (choice==2):
+        sort=sorted(list1)
+        print("sorted list: ",sort)
+    elif (choice==3):
+        even_list1=[]
+        for num in list1:
+            if num % 2==0:
+                even_list1.append(num)
+        print("List of even numbers:",even_list1)
+    elif (choice==4):
+        print("Exiting the program..")
+        break
+    else:
+        print("Invalid choice. \nPlease choose a number 1 to 4")
+    
+
+    
+
+
