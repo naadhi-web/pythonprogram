@@ -1,0 +1,4 @@
+from mypackage import fact
+from mypackage import fab
+fact.factorial()
+fab.fibonacci()
