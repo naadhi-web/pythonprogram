@@ -3,9 +3,45 @@ class Employee:
     TA=0
     DA=0
     def salary(self):
-        print("salary",self.Basic+self.TA+self.DA)
+        return f"{self.Basic+self.TA+self.DA}"
 emp1=Employee()
 emp1.Basic=20000
 emp1.TA=5000
 emp1.DA=1000
 emp1.salary()
+print("employee 1 detailes:",emp1.salary())
+
+emp2=Employee()
+emp2.Basic=25000
+emp2.TA=7000
+emp2.DA=1500
+emp2.salary()
+print("employee 2 detailes:",emp2.salary())
+
+emp3=Employee()
+emp3.Basic=30000
+emp3.TA=5500
+emp3.DA=2000
+emp3.salary()
+print("employee 3 detailes:",emp3.salary())
+
+emp4=Employee()
+emp4.Basic=20000
+emp4.TA=7100
+emp4.DA=500
+emp4.salary()
+print("employee 4 detailes:",emp4.salary())
+
+
+emp5=Employee()
+emp5.Basic=25000
+emp5.TA=5000
+emp5.DA=1000
+emp5.salary()
+print("employee 5 detailes:",emp5.salary())
+
+
+
+
+
+
