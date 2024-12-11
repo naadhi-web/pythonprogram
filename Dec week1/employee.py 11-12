@@ -1,0 +1,11 @@
+class Employee:
+    Basic=0
+    TA=0
+    DA=0
+    def salary(self):
+        print("salary",self.Basic+self.TA+self.DA)
+emp1=Employee()
+emp1.Basic=20000
+emp1.TA=5000
+emp1.DA=1000
+emp1.salary()
