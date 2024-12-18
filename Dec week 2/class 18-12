@@ -1,0 +1,16 @@
+class Fruits:
+    def eat(self):
+        print("We can eat fruits")
+class Orange(Fruits):
+    #def eat(self):
+        #print("Orange is a sour fruit ")
+    pass
+class Apple(Fruits):
+    def eat(self):
+        print("Apple is sweet")
+org1=Orange()
+app1=Apple()
+fruit1=Fruits()
+org1.eat()
+app1.eat()
+
