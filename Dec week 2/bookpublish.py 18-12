@@ -23,4 +23,5 @@ class Python(Book):
         print(f"Price : {self.price}")
         print(f"Pages : {self.no_of_pages}")
 b1 = Python("TMH", "Python for Beginners", "Peter", "Rs.350", 173)
-b1.show_Details()
+b1.show_Details()
+
